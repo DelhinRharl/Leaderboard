@@ -1,0 +1,45 @@
+body {
+  background-color: rgba(158, 158, 156, 0.397);
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+#section1 {
+  padding: 0.125rem;
+  border: solid;
+  width: 31.25rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+#refresh {
+  height: 1.25rem;
+}
+
+.content {
+  display: flex;
+}
+
+ul {
+  padding: 0;
+}
+
+#my-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.content:nth-child(odd) {
+  background-color: rgb(255, 255, 255);
+}
