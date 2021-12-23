@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const playerName = document.getElementById('username');
     const outcome = document.getElementById('score');
     postData();
-    playerName.value ='';
-    outcome.value='';
+    playerName.value = '';
+    outcome.value = '';
   });
   display();
 });
