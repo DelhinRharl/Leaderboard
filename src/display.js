@@ -1,35 +1,16 @@
-const myArray = [
-  {
-    Name: 'Xander',
-    Score: 97,
-  },
-  {
-    Name: 'Xavier',
-    Score: 97,
-  },
-  {
-    Name: 'Leila',
-    Score: 98,
-  },
-  {
-    Name: 'Lexa',
-    Score: 99,
-  },
-  {
-    Name: 'Delhin',
-    Score: 99,
-  },
-];
-const fetch = () => myArray;
+import "./main.js"
+import { getResults} from "./main.js";
 const leaderBoard = document.querySelector('#container');
 
-const display = () => {
-  const data = fetch();
+const display = async () => {
+  leaderBoard.innerHTML ='';
+  const data = await getResults();
   const myList = data.map((item) => {
-    const listItems = `<li class="content"><p>${item.Name}:</p> <p>${item.Score}</p></li>`;
+    const listItems = `<li class="content"><p>${item.user}:</p> <p>${item.score}</p></li>`;
     return listItems;
   });
   leaderBoard.innerHTML = myList.join('');
 };
 
 export default display;
+
