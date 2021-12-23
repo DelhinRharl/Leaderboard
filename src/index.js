@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   formInput.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const playerName = document.getElementById('username').value;
-    const outcome = document.getElementById('score').value;
+    const playerName = document.getElementById('username');
+    const outcome = document.getElementById('score');
     postData();
-    playerName === '';
-    outcome === '';
+    playerName.value ='';
+    outcome.value='';
   });
   display();
 });

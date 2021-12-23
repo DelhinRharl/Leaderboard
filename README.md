@@ -26,6 +26,10 @@ In your terminal, navigate to your current directory and run this code
 
 `git clone https://github.com/DelhinRharl/Leaderboard.git`
 
+Locate the directory in your file explorer
+
+`cd Leaderboard`
+
 Install npm or if installed already using this lin
 `npm install`
 
