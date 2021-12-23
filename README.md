@@ -30,7 +30,8 @@ Locate the directory in your file explorer
 
 `cd Leaderboard`
 
-Install npm or if installed already using this lin
+Install npm or if installed already using this link
+
 `npm install`
 
 Start the web dev server depending on your configuration
