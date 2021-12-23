@@ -1,9 +1,9 @@
-import "./main.js"
-import { getResults} from "./main.js";
+import { getResults } from './main.js';
+
 const leaderBoard = document.querySelector('#container');
 
 const display = async () => {
-  leaderBoard.innerHTML ='';
+  leaderBoard.innerHTML = '';
   const data = await getResults();
   const myList = data.map((item) => {
     const listItems = `<li class="content"><p>${item.user}:</p> <p>${item.score}</p></li>`;
@@ -13,4 +13,3 @@ const display = async () => {
 };
 
 export default display;
-
