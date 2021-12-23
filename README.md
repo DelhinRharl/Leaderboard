@@ -14,7 +14,7 @@ This is the first project in the APIs week at Microverse. It is a basic leaderbo
 
 ## Live Demo
 
-[Live Demo Link](https://delhinrharl.github.io/Leaderboard/)
+[Live Demo Link](https://delhinrharl.github.io/Leaderboard/dist/)
 
 ## Getting Started
 

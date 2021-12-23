@@ -16,6 +16,7 @@ header {
 #section1 {
   padding: 0.125rem;
   border: none;
+  
   box-shadow: 5px 5px 10px rgba(40, 177, 240, 0.685);
   width: 31.25rem;
 }
@@ -35,25 +36,25 @@ input {
   height: 40px;
   width: 20.25rem;
   border: none;
-  border-radius: 0.625rem;
-  border-color: rgb(43, 177, 240);
+  border-radius: .625rem;
+   border-color: rgb(43, 177, 240);
   box-shadow: 1px 1px 5px rgba(40, 177, 240, 0.685);
 }
 
 #refresh {
   height: 1.25rem;
   border-radius: 5px;
-  border: none;
+   border: none;
   border-color: rgb(43, 177, 240);
   box-shadow: 1px 1px 10px rgba(40, 177, 240, 0.685);
   cursor: pointer;
 }
 
-.btn {
-  height: 1.25rem;
-  margin-bottom: 0.3125rem;
+.btn{
+   height: 1.25rem;
+   margin-bottom: .3125rem;
   border-radius: 5px;
-  border: none;
+   border: none;
   border-color: rgb(43, 177, 240);
   box-shadow: 1px 1px 10px rgba(40, 177, 240, 0.685);
   cursor: pointer;
@@ -73,7 +74,7 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: none;
+   border: none;
   border-color: rgb(43, 177, 240);
   box-shadow: 5px 5px 10px rgba(40, 177, 240, 0.685);
 }
