@@ -1,6 +1,6 @@
 # Leaderboard
 
-This is the first project in the APIs week at Microverse. It is a basic leaderboard with the use of custom Api from Microverse capstone Project
+This is the first project in the APIs week at Microverse. It is a basic leaderboard with the use of custom Apis from Microverse capstone Project
 
 ![screenshot](./lead.png)
 
