@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const merge = require('lodash.merge');
 
 module.exports = {
   entry: './src/index.js',
@@ -28,3 +29,10 @@ module.exports = {
     }),
   ],
 };
+const productionConfig = merge([ //eslint-disable-line
+  {
+    output: {
+      publicPath: '/Leaderboard/',
+    },
+  },
+]);
