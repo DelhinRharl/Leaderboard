@@ -1,0 +1,83 @@
+body {
+  background-color: rgba(255, 255, 255);
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  color: rgb(43, 177, 240);
+}
+
+#section1 {
+  padding: 0.125rem;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(40, 177, 240, 0.685);
+  width: 31.25rem;
+}
+
+#section2 {
+  margin-left: 2.25rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+input {
+  height: 40px;
+  width: 20.25rem;
+  border: none;
+  border-radius: 0.625rem;
+  border-color: rgb(43, 177, 240);
+  box-shadow: 1px 1px 5px rgba(40, 177, 240, 0.685);
+}
+
+#refresh {
+  height: 1.25rem;
+  border-radius: 5px;
+  border: none;
+  border-color: rgb(43, 177, 240);
+  box-shadow: 1px 1px 10px rgba(40, 177, 240, 0.685);
+  cursor: pointer;
+}
+
+.btn {
+  height: 1.25rem;
+  margin-bottom: 0.3125rem;
+  border-radius: 5px;
+  border: none;
+  border-color: rgb(43, 177, 240);
+  box-shadow: 1px 1px 10px rgba(40, 177, 240, 0.685);
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  padding: 0;
+}
+
+#my-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  border-color: rgb(43, 177, 240);
+  box-shadow: 5px 5px 10px rgba(40, 177, 240, 0.685);
+}
+
+.content:nth-child(odd) {
+  background-color: rgba(184, 233, 255, 0.274);
+}

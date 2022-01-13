@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    <main id="main">
+      <section id="section1">
+        <div class="container">
+          <h3>Recent Scores</h3>
+          <button id="refresh" type="button">Refresh</button>
+        </div>
+        <ul id="container"></ul>
+      </section>
+      <section id="section2">
+        <form id="my-form" action="#" method="POST">
+           <h3>Add score</h3>
+          <input type="text" id="username" placeholder="Enter Name" /><br />
+          <input type="text" id="score" placeholder="Enter Score" /><br />
+          <button class="btn" type="submit">Add Scores</button>
+        </form>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
